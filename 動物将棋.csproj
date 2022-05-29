@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bg_chiheisen_green.jpg" />
+    <None Remove="tree_bird.png" />
+    <None Remove="ぞう.png" />
+    <None Remove="ひよこ.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bg_chiheisen_green.jpg" />
+    <Resource Include="tree_bird.png" />
+    <Resource Include="ぞう.png" />
+    <Resource Include="ひよこ.png" />
+  </ItemGroup>
+
+</Project>
